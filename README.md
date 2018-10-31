@@ -1,6 +1,6 @@
 # pyFlaskDeploymentGuide
 
-1. Install gunicorn server: `pip install gunicorn`
+1. Install the gunicorn server: `pip install gunicorn`
 
 2. Install all other dependencies:
   ```
@@ -14,9 +14,10 @@
   ```
   pip freeze > requirements.txt
   ```
-  This command will create a _requirements.txt_ file in the current directory that includes all our dependencies (Python packages we use). Heroku will use this file to install all the required dependencies for our app.
+  
+    This command will create a _requirements.txt_ file in the current directory that includes all our dependencies (Python packages we use). Heroku will use this file to install all the required dependencies for our app.
 
-3. Create a `Procfile` file (`touch Procfile`).
+3. Create a `Procfile` file (command: `touch Procfile`).
 
 4. Open (edit) `Procfile` and add the following line to it:
  ```
