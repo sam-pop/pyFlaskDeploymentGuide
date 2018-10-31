@@ -14,8 +14,7 @@
   ```
   pip freeze > requirements.txt
   ```
-  
-    This command will create a _requirements.txt_ file in the current directory that includes all our dependencies (Python packages we use). Heroku will use this file to install all the required dependencies for our app.
+  This command will create a _requirements.txt_ file in the current directory that includes all our dependencies (Python packages we use). Heroku will use this file to install all the required dependencies for our app.
 
 3. Create a `Procfile` file (command: `touch Procfile`).
 
