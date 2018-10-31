@@ -1,6 +1,6 @@
 # pyFlaskDeploymentGuide
 
-1. Install gunicorn: `pip install gunicorn`
+1. Install gunicorn server: `pip install gunicorn`
 
 2. Install all other dependencies:
   ```
