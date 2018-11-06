@@ -38,3 +38,5 @@ git add .
 git commit -m 'heroku deployment'
 git push heroku master
 ```
+
+9. You are now successfully deployed!
